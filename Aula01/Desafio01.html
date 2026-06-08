@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faviicon  Tag -->
+    <!-- <link rel="icon" href="https://www.w3schools.com/favicon.ico"  type="image/x-icon"> -->
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>AULAS de JS</title>
+    <meta name="description" content="...">
+    <meta name="keywords" content="sites, web, frontend">
+    <meta name="author" content="Gregorio Queiroz, gregorio@gregmaster.com.br, gregmasterbr@gmail.com">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+    <h1>fazendo operações com numeros</h1>
+    <hr>
+    <script>
+        window.alert("Seja bem-vindo ao site");
+        let num1 = parseFloat(window.prompt("QUAL É O PRIMEIRO NUMERO?"));
+        let num2 = parseFloat(window.prompt("QUAL É O SEGUNDO NUMERO?"));
+        let resultado = 0
+        let resposta = window.confirm("qual a operação ?");
+
+        if (resposta == true){
+          resultado = num1 + num2
+
+        }else{
+         resultado = num1 - num2
+        }
+        window.alert(resultado)
+    </script>
+</body>
+
