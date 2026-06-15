@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faviicon  Tag -->
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>EXERCICIO 01 - JAVASCRIPT</title>
+    <meta name="description" content="Conteúdo das Aulas de JS">
+    <meta name="keywords" content="sites, web, frontend">
+    <meta name="author" content="Rafaeli, Rafaeli Belchior, rafaelibelchior@gmail.com ">
+  
+
+</head>
+
+<body>
+    </div>
+    <h1><mark>MANIPULANDO ELEMENTOS (TAGS)</mark> DO HTML A PARTIR DO JS</h1>
+    <hr>
+    <div>
+    <p>ESTAMOS APRENDENDO JAVASCRIPT</p>
+    <hr>
+    <p>Aprender é muito legal</p>
+    <p>A TURMA DO DEV É ESPETACULAR DEMAIS!</p>
+
+    <img src="img/download (1).jpg" id="Rosto" style= "width:350px";>
+    <input type = "button" onclick="triste();" value="FELIZ">
+    <input type = "button" onclick="feliz();" value="TRISTE">
+    <script>
+      function triste(){
+        alert ("triste")
+        var tag_img_ = document.getElementsByTagName('img')[0]
+        console.log(tag_img)
+        tag_img.src="download (2).jpg";
+      }
+
+      function feliz(){
+        alert ("feliz")
+        var tag_img = document.getElementsByTagName("img")[0]
+        console.log(tag_img)
+        tag_img.src="img/download (1).jpg";
+      }
+      
+
+
+
+
+
+
+    
+
+
+    </script>
+    </hr>
+
+    
+</body>
+
+
+</html>
