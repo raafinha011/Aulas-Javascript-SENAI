@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faviicon  Tag -->
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>EXERCICIO 01 - JAVASCRIPT</title>
+    <meta name="description" content="Conteúdo das Aulas de JS">
+    <meta name="keywords" content="sites, web, frontend">
+    <meta name="author" content="Rafaeli, Rafaeli Belchior, rafaelibelchior@gmail.com">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+    <h1><mark>MANIPULANDO ELEMENTOS (TAGS)</mark> DO HTML A PARTIR DO JS</h1>
+    <hr>
+    <div>
+        <p>ESTAMOS APRENDENDO JAVASCRIPT</p>
+        <hr>
+        <p>Aprender é muito legal</p>
+        <p>e para ajudar o aprendizado,  é PRECISO praticar e exercitar</p>
+
+    </div>
+    <script>
+        const tags_p = document.getElementsByTagName ('p');
+        console.log("MINHAS TAGS <p>", tags_p);
+            let tag_p_1 = tags_p[0]
+            let tag_p_2 = tags_p[1]
+            let tag_p_3 = tags_p[2]
+
+            tag_p_1.style.backgroundColor="green";
+            tag_p_1.style.color="white";
+            tag_p_2.style.backgroundColor="black";
+            tag_p_2.style.color="purple";
+            tag_p_3.style.backgroundColor="pink";
+            tag_p_3.style.color="blue";
+
+    </script>
+    </hr>
+
+    
+</body>
+
+
+</html>
